@@ -2,7 +2,8 @@
   "name": "i-want-typescript",
   "version": "1.0.0",
   "description": "📜 Template repository for a new Node.js TypeScript project linted using ESLint with Prettier",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "lint": "eslint \"src/**/*.ts\" --fix",
@@ -14,7 +15,7 @@
     "url": "git+https://github.com/khannurien/i-want-typescript.git"
   },
   "author": "Vincent Lannurien",
-  "license": "GPL-3.0",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/khannurien/i-want-typescript/issues"
   },
