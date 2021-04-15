@@ -4,13 +4,44 @@
 
 ## Usage
 
+Install development dependencies:
+
 ```
-# install development dependencies
 npm install
-# format then lint the code with in-place fix
+```
+
+Format then lint `src/*.ts` by making in-place fixes:
+
+```
 npm run fix
-# build src/*.ts files into dist/*.js files
+```
+
+Run unit test suites:
+
+```
+npm run test
+```
+
+View coverage of unit tests:
+
+```
+npm run test:coverage
+```
+
+Build `src/*.ts` files into `dist/*.js` files:
+
+```
 npm run build
-# serve dist/index.js using node
+```
+
+Serve `dist/index.js` using `node` (for production):
+
+```
 npm run start
+```
+
+Monitor file changes and serve `src/index.ts` using `nodemon` with `ts-node` (for development):
+
+```
+npm run watch
 ```

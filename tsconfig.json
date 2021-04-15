@@ -2,11 +2,12 @@
   "compilerOptions": {
     "module": "commonjs",
     "esModuleInterop": true,
-    "typeRoots": ["node_modules/@types"],
+    "resolveJsonModule": true,
     "declaration": true,
     "removeComments": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
+    "typeRoots": ["node_modules/@types"],
     "target": "es2019",
     "lib": [
       "es2019",
@@ -19,5 +20,6 @@
     "baseUrl": "./",
     "incremental": true
   },
+  "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]
 }
