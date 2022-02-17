@@ -10,9 +10,11 @@ Install development dependencies:
 npm install
 ```
 
-Format then lint `src/*.ts` by making in-place fixes:
+Lint, then format `src/*.ts` by making in-place fixes:
 
 ```
+npm run lint && npm run format
+# or:
 npm run fix
 ```
 
