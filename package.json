@@ -17,7 +17,7 @@
     "start": "node dist/index.js",
     "test": "jest --config .jestrc.json",
     "test:coverage": "jest --config .jestrc.json --coverage",
-    "watch": "nodemon --watch 'src/**/*.ts' --ignore 'src/**/*.spec.ts' --exec 'ts-node' src/index.ts"
+    "watch": "nodemon src/index.ts"
   },
   "repository": {
     "type": "git",
