@@ -1,7 +1,4 @@
-/**
- * Mandatory Hello World function.
- * @returns A string which contains "Hello world!"
- */
-export const helloWorld = (): string => {
-  return 'Hello world!';
-};
+import { helloWorld } from './hello-world';
+
+const greet = helloWorld();
+console.log(greet);
