@@ -1,3 +1,4 @@
+import { describe, expect, it } from '@jest/globals';
 import { helloWorld } from './hello-world';
 
 describe('typeScript test suite', () => {
